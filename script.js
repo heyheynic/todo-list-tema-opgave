@@ -1,10 +1,8 @@
-import { $ } from "../dom.js";
-
-const todoList = $(".todo-list");
-const newTodoForm = $(".new-todo-form");
-const clearCompletedButton = $(".clear-completed-tasks");
-const clearAllButton = $(".clear-entire-list");
-const counterOptionCheckbox = $("#counter-option");
+const todoList = document.querySelector(".todo-list");
+const newTodoForm = document.querySelector(".new-todo-form");
+const clearCompletedButton = document.querySelector(".clear-completed-tasks");
+const clearAllButton = document.querySelector(".clear-entire-list");
+const counterOptionCheckbox = document.querySelector("#counter-option");
 
 // defines a constant for the id key used in local storage, and initialize a todos array []. The array is empty if there are no todos.
 const LOCAL_STORAGE_TODO_KEY = "task.todos";
