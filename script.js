@@ -1,4 +1,4 @@
-import { $ } from "../utils/dom.js";
+import { $ } from "../dom.js";
 
 const todoList = $(".todo-list");
 const newTodoForm = $(".new-todo-form");
